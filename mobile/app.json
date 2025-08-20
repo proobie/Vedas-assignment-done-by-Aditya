@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Chat App",
+    "slug": "chat-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "resize",
+      "package": "com.proobie1.chatmobile"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "extra": {
+      "API_URL": "http://10.0.2.2:4000",
+      "eas": {
+        "projectId": "local-dev"
+      }
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
